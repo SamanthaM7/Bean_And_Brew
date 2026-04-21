@@ -1,0 +1,192 @@
+html {
+    font-family: Calibri, sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #cc6633;
+    font-size: 70px;
+}
+
+h2 {
+    color: #cc6633;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p, a {
+    color: #996633;
+    font-size: 18px;
+}
+
+/* Navigation Styling */
+.navbar {
+    clear: left;
+    padding: 10px;
+    text-align: center;
+    background-color: #999966;
+}
+
+.navbar a {
+    font-size: 28px;
+    text-decoration: none;
+    margin: 15px;
+    background-color: white;
+    padding: 5px 10px;
+    border: #996633 solid 3px;
+    border-radius: 13.5px;
+    color: #996633;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: #cc9966;
+    color: white;
+}
+
+/* Header Styling */
+header {
+    background-color: #cccc99;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+.logo h1 {
+    color: #cc6633;
+    font-size: 70px;
+    margin: 0;
+}
+
+.logo a {
+    font-size: 18px;
+    color: #996633;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: underline;
+}
+
+/* Row Styling for Layout */
+#row1, #row2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#row1 img, #row2 img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+#row1 {
+    justify-content: space-evenly;
+}
+
+#visitInfo {
+    width: 60%;
+    text-align: left;
+    color: #996633;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#opentimes {
+    list-style: none;
+    color: #996633;
+    font-size: 20px;
+    padding-left: 0;
+    margin-top: 0;
+    text-align: left;
+}
+
+#opentimes li {
+    margin-bottom: 10px;
+}
+
+#row2 {
+    justify-content: space-evenly;
+}
+
+#cafe {
+    max-width: 550px;
+}
+
+/* Menu Item Styling */
+#menuItem {
+    float: left;
+    padding: 30px;
+}
+
+#menuItem img {
+    width: 450px;
+    height: 398px;
+    border: #999966 solid 4px;
+}
+
+/* Home Page Promo Styling */
+.promo h3 {
+    margin-left: 650px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: fit-content;
+    border: #cc9966 solid 3px;
+    border-radius: 13.5px;
+    color: #996633;
+}
+
+/* Booking Form Styling */
+form {
+    color: #cc6633;
+}
+
+#type, #attendees, #eventtime, #name, #email, #additional {
+    color: #996633;
+}
+
+/* Media*/
+@media (max-width: 768px) {
+    #row1, #row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #visitInfo {
+        width: 80%;
+        text-align: center;
+    }
+
+    #opentimes {
+        text-align: center;
+    }
+
+    #cafe {
+        width: 80%;
+    }
+
+    #row1 img {
+        max-width: 100%;
+    }
+}
