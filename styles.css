@@ -214,8 +214,14 @@ form {
     }
 
     .promo h3 {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 20px;
     }
+
+    #menuItem img {
+        width: 250px;
+        height: 200px;
+    }
+}
 }
