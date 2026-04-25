@@ -26,6 +26,8 @@ p, a {
     font-size: 18px;
 }
 
+.bigImage{width:900px;}
+
 /* Navigation Styling */
 .navbar {
     clear: left;
