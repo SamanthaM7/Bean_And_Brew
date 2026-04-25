@@ -134,12 +134,12 @@ header {
 }
 
 /* Menu Item Styling */
-#menuItem {
+.menuItem {
     float: left;
     padding: 40px;
 }
 
-#menuItem img {
+.menuItem img {
     width: 110%;
     height: 398px;
     border: #999966 solid 4px;
@@ -219,7 +219,7 @@ form {
         font-size: 20px;
     }
 
-    #menuItem img {
+    .menuItem img {
         width: 250px;
         height: 200px;
     }
