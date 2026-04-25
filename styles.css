@@ -145,6 +145,12 @@ header {
     border: #999966 solid 4px;
 }
 
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /* Home Page Promo Styling */
 .promo h3 {
     margin-left: 650px;
